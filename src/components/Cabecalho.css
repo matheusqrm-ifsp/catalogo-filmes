@@ -40,3 +40,21 @@
 .menu li a:hover {
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .cabecalho {
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+  }
+  
+  .menu {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu li a {
+    font-size: 14px;
+  }
+}

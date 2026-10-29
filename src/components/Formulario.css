@@ -50,3 +50,22 @@
 .alert-erro a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .form-card {
+    padding: 20px;
+  }
+
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .botoes-form {
+    flex-direction: column;
+  }
+
+  .botoes-form .btn-custom,
+  .search-bar .btn-custom {
+    width: 100%;
+  }
+}

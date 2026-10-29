@@ -69,3 +69,22 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 20px 15px;
+  }
+
+  .grid-filmes {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+  }
+
+  .poster {
+    height: 225px;
+  }
+  
+  .overlay {
+    opacity: 1;
+  }
+}
