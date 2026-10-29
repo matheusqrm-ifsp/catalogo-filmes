@@ -1,0 +1,42 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #050505;
+  border-bottom: 1px solid #222;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+  color: #e50914;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.logo span {
+  color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+
+.menu li a {
+  color: #b3b3b3;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.menu li a:hover {
+  color: #ffffff;
+}

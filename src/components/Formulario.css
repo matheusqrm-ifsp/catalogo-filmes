@@ -1,0 +1,52 @@
+.form-card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+}
+
+.form-card h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 24px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+
+.botoes-form {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.alert-erro {
+  background-color: rgba(229, 9, 20, 0.1);
+  border: 1px solid #e50914;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.alert-erro a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #e50914;
+  font-weight: bold;
+}
+
+.alert-erro a:hover {
+  text-decoration: underline;
+}
